@@ -1,4 +1,3 @@
-export PATH="/Users/daveboyd/pinokio/bin/miniconda/bin:$PATH"
 # ANSI formatting function (\033[<code>m)
 # 0: reset, 1: bold, 4: underline, 22: no bold, 24: no underline, 31: red, 33: yellow
 omz_f() {
@@ -237,3 +236,5 @@ fi
 
 # set completion colors to be the same as `ls`, after theme has been loaded
 [[ -z "$LS_COLORS" ]] || zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+export PATH=$HOME/development/flutter/bin:$PATH
+export PATH="/Users/daveboyd/pinokio/bin/miniconda/bin:$PATH"
